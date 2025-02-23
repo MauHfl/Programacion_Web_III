@@ -1,0 +1,28 @@
+body {
+    background: #f4f4f4;
+    background-color: rgb(209, 207, 207);
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.container {
+    width: 800px;
+    margin: 50px auto;
+    background: #999898;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+h1 {
+    color: #278175;
+}
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 16px;
+    margin-top: auto;
+}

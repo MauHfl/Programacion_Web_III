@@ -1,0 +1,79 @@
+body{
+    background-color: rgb(201, 208, 208);
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.tit{
+    background-color: rgb(119, 186, 156);
+    text-align: center;
+    color: rgb(31, 99, 34);
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.teo{
+    margin: 5px;
+    padding: 5px;
+}
+.teo .pr{
+    color: rgb(7, 77, 39);
+}
+.container{
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    flex: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+h2{
+    color: rgb(135, 248, 210);
+}
+.container .box{
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(4, 138, 93);
+    border-radius: 10px;
+    
+}
+.container .box .btn {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #3aa4a2;
+    color: rgb(37, 103, 86);
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background 0.3s, color 0.3s;
+}
+.container .box .btn:hover{
+    background-color: #165841;
+    color: rgb(0, 251, 84);
+}
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 16px;
+    margin-top: auto;
+}
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #3aa4a2;
+    color: rgb(37, 103, 86);
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background 0.3s, color 0.3s;
+}
+.btn:hover{
+    background-color: #165841;
+    color: rgb(0, 251, 84);
+}
+
